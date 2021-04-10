@@ -80,33 +80,33 @@ body {
     font-size: 10px;
     text-align: center;
     margin-bottom: 70px;
-    
 }
 
 .bundle_container {
     color: white;
     background: linear-gradient(318.68deg, #0F495C 0%, #0D3640 49.72%, #08141F 100%);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    height: 150px;
     justify-content: space-around;
     width: 100%;
+    height: 150px;
 }
 
 .bundle_logos {
-    margin-left: 40px;
-    padding-right: 30px;
-    padding-top: 10px;
-    flex-basis: 20%;
+    padding-top: 18px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    position: relative;
+    right: 20px;
 }
 
 .bundle {
-    text-align: left;
-    line-height: 12px;
-    font-size: 18px;
-    padding-bottom: 30px;
+    position: relative;
+    right: 110px;
+    line-height: 0.7em;
     padding-top: 15px;
-    flex-basis: 60%;
+    padding-bottom: 30px;
 }
 
 #bundle_1 {
@@ -128,9 +128,15 @@ body {
 }
 
 .bundle_button {
-    margin-top: 20px;
-    margin-right: 45px;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    position: relative;
+    left: 10px;
+}
 
 #bundle_button {
     border: 2px solid white;
@@ -140,7 +146,7 @@ body {
     font-size: 14px;
     font-weight: bolder;
     letter-spacing: .9px;
-   }
+}
 
 .whitelink {
     color: white;
@@ -182,7 +188,6 @@ body {
     line-height: 20px;
     margin-bottom: 30px;
     margin-top: 10px;
-    
 }
     
 
@@ -206,13 +211,11 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-
-    
 }
+
 .box {
     position: relative;
     padding: 0px;
-    
 }
 
 .box:active {
