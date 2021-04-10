@@ -162,11 +162,13 @@ body {
 }
 
 .flex-container {
+    display: flex;
+    flex-direction: column;
     color: white; 
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 40px;
-    line-height: 25px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    line-height: 24px;
 }
 
 .flex-container h4 {
@@ -177,10 +179,13 @@ body {
 .flex-container h1 {
     font-size: 65px;
     font-weight: 800;
+    letter-spacing: -2px;
     line-height: 20px;
-    margin-bottom: 16px;
-    letter-spacing: -2.5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    
 }
+    
 
 .flex-container p {
     font-size: 20px;
@@ -189,19 +194,26 @@ body {
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    justify-items: center;
-    margin-left: 125px;
-    margin-right: 125px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: auto;
+    column-gap: 20px;
+    justify-content: center;
     margin-bottom: 100px;
 }
 
 .grid img {
-    filter:brightness(60%)
+    filter:brightness(60%);
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    
 }
 .box {
     position: relative;
     padding: 0px;
+    
 }
 
 .box:active {
@@ -227,4 +239,3 @@ body {
     font-size: 30px;
     font-weight: 600;
 }
-
